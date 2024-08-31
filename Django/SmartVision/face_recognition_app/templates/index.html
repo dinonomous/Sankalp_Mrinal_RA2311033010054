@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Video Feed</title>
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?t=st=1725001223~exp=1725001823~hmac=13dd4cf4ed7681353c2ca00074bbbae8592a5c069d6b8256d54f0794386f050e);
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            min-width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h1>Live Video Face Recognition</h1>
+    <img src="{% url 'live_feed' %}" width="720" height="480">
+    
+</body>
+</html>
